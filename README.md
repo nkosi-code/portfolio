@@ -36,13 +36,9 @@ View the [Demo](https://yujisatojr.github.io/react-portfolio-template/).
     npm start
     ```
 
-4. Open [http://localhost:3000](http://localhost:3000) to view the app in the browser.
-
-5. Customize the template by navigating to the `/src/components` directory. Modify texts, pictures, and other information as needed.
+4. Customize the template by navigating to the `/src/components` directory. Modify texts, pictures, and other information as needed.
 
 The page will reload if you make edits, and you will see any lint errors in the console.
-
-If you are interested in creating a mockup image like the ones from the personal projects section, I recommend [Genmoo](https://gemoo.com/tools/browser-mockup-generator/). This website lets you generate sleek looking browser mockups for free.
 
 ## Deployment
 
