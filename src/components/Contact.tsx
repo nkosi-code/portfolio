@@ -54,7 +54,8 @@ function Contact() {
       <div className="items-container">
         <div className="contact_wrapper">
           <h1>Contact Me</h1>
-          <p>Got a project waiting to be realized? Let's collaborate and make it happen!</p>
+                  <p>Got an idea, project, or opportunity? I’m a student and freelance developer who enjoys turning ideas into practical, user-friendly solutions. Feel free to reach out anytime.
+</p>
           <Box
             ref={form}
             component="form"
