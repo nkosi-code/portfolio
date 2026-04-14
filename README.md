@@ -8,13 +8,9 @@ This simple portfolio is designed to showcase my career history, skill sets, pas
 
 View the [Demo](https:/ /username.github.io/repo-name/).
 
-<<<<<<< HEAD
 **This template is free to use, and no attribution is required.** You can fork or download this repository to customize it for your own use.
 
 ![screenshot](./src/assets//images/preview.png)
-=======
-![screenshot](./src/assets//images/.png)
->>>>>>> a18e0bedb3f1a56d8ab778b97e10cbfccdacb553
 
 ## Features
 
@@ -27,17 +23,11 @@ View the [Demo](https:/ /username.github.io/repo-name/).
 ## Quick Setup
 1. Ensure you have [Node.js] installed. Check your installation by running:
 
-<<<<<<< HEAD
 ```bash
 node -v
 ```
-=======
-1. Ensure you have [Node.js] installed. Check your installation by running:
->>>>>>> a18e0bedb3f1a56d8ab778b97e10cbfccdacb553
 
 2. In the project directory, do the following:
-
-<<<<<<< HEAD
 ```bash
 npm install
 npm start
@@ -48,27 +38,9 @@ npm start
 The page will reload if you make edits, and you will see any lint errors in the console.
 
 ## Deployment 
+You can choose your preferred hosting service to deploy your portfolio, such as GitHub Pages, Netlify, Vercel, or any other static site hosting provider.
 
-You can choose your preferred service (e.g., Netlify, Render, GitHub, Heroku) for deployment.
-=======
-2. In the project directory, do the following:
-
-    ```bash
-    npm install
-    ```
-
-    ```bash
-    npm start
-    ```
-
-4. Customize the template by navigating to the `/src/components` directory. Modify texts, pictures, and other information as needed.
-
-The page will reload if you make edits, and you will see any lint errors in the console.
-
-## Deployment
->>>>>>> a18e0bedb3f1a56d8ab778b97e10cbfccdacb553
-
-If deployed from GiyHub Pages, ensure to update the `homepage` field in `package.json` to match your repository URL:
+If deployed from GitHub Pages, ensure to update the `homepage` field in `package.json` to match your repository URL:
 ```json
 {
     "homepage": "https://yourusername.github.io/your-repo-name",
