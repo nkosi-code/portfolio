@@ -6,16 +6,13 @@
 
 This simple portfolio is designed to showcase career history, skill sets, past projects, and more.
 
-View the [Live](https://nkosi-code.github.io/portfolio/).
-
 **This template is free to use, and no attribution is required.** You can fork or download this repository to customize it for your own use.
 
 ![screenshot](./src/assets/images/screenshot.png) 
   
 
 ## Quick Setup
-1. Ensure you have [Node.js] installed. Check your installation by running:
-
+1. Ensure you have Node.js installed. Check your installation by running:
 ```bash
 node -v
 ```
