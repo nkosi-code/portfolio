@@ -8,6 +8,9 @@ import '../assets/styles/Expertise.scss';
 const labelsFirst = [
     "C#",
     "C++",
+    "Java",
+    "DART",
+    "Tailwind",
     "SQL",
     ".NET",
     "Testing",
@@ -24,6 +27,7 @@ const labelsSecond = [
     "Conflict Resolution",
     "Event Cordination",
     "Time Management",
+    "Reports",
     "Disocrd Moderation",
 ];
 

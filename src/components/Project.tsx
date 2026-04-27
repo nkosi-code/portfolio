@@ -1,14 +1,9 @@
 import React from "react";
-// import mock01 from '../assets/images/mock01.png';
-// import mock02 from '../assets/images/mock02.png';
-// import mock03 from '../assets/images/mock03.png';
-// import mock04 from '../assets/images/mock04.png';
-// import mock05 from '../assets/images/mock05.png';
-// import mock06 from '../assets/images/mock06.png';
-// import mock07 from '../assets/images/mock07.png';
-// import mock08 from '../assets/images/mock08.png';
-// import mock09 from '../assets/images/mock09.png';
-import mock10 from '../assets/images/POS.png';
+import pos from '../assets/images/POS-System.png';
+// import tourn from '../assets/images/';
+// import chess from '../assets/images/';
+// import tourn from '../assets/images/';
+import pro from '../assets/images/progress.jpeg';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -17,25 +12,25 @@ function Project() {
         <h1>Personal Projects</h1>
         <div className="projects-grid">
             <div className="project">
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><h2>POS System</h2></a>
-                    <p>Built a full-stack POS system simulating real retail operations, featuring inventory tracking, transaction processing, and data management. Developed with ASP.NET Core, C#, React, Tailwind, and SQL Server.</p>
-            </div>
-            {/* <div className="project">
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>High Speed Chase</h2></a>
-                <p>Designed, developed, and launched a 3D multiplayer racing game with C# and Unity. This is available on Itch.io for gamers worldwide to enjoy.</p>
+                    <a href="https://github.com/nkosi-code/pos-system" target="_blank" rel="noreferrer"><img src={pos} className="zoom" alt="thumbnail" width="100%"/></a>
+                    <a href="https://github.com/nkosi-code/pos-system" target="_blank" rel="noreferrer"><h2>POS System</h2></a>
+                    <p>A basic full-stack POS System simulating real retail operations, featuring inventory tracking, transaction processing, and data management. Developed with ASP.NET Core, C#, React, Tailwind, and SQL Server.</p>
             </div>
             <div className="project">
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><h2>Astro Raiders</h2></a>
-                <p>Developed and released a 2D shooting game with C# and Unity. This project is hosted on the Itch.io public marketplace.</p>
+                    <a href="https://github.com/nkosi-code/TournamentSystem-API" target="_blank" rel="noreferrer"><img src={pro} className="zoom" alt="thumbnail" width="100%"/></a>
+                    <a href="https://github.com/nkosi-code/TournamentSystem-API" target="_blank" rel="noreferrer"><h2>Tournament.API</h2></a>
+                <p>This will be a website where organizers can host their own tournaments online.</p>
             </div>
             <div className="project">
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><h2>Datum: Integrated Learning Platform</h2></a>
-                <p>This is an online educational platform that provides high-quality, data science-focused learning resources in the Japanese language. I created the entire platform from scratch using Ruby on Rails.</p>
-                </div> */}
+                    <a href="https://github.com/nkosi-code/chess-app" target="_blank" rel="noreferrer"><img src={pro} className="zoom" alt="thumbnail" width="100%"/></a>
+                    <a href="https://github.com/nkosi-code/chess-app" target="_blank" rel="noreferrer"><h2>Chess App</h2></a>
+                <p>This will be a free to play multiplayer chess game.</p>
+            </div>
+            <div className="project">
+                    <a href="https://github.com/nkosi-code" target="_blank" rel="noreferrer"><img src={pro} className="zoom" alt="thumbnail" width="100%"/></a>
+                    <a href="https://github.com/nkosi-code" target="_blank" rel="noreferrer"><h2>Unknown Project</h2></a>
+                <p>Project being generated. Any collaborations appreceated.</p>
+                </div>
                     
         </div>
     </div>

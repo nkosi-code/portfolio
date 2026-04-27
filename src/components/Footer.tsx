@@ -8,7 +8,7 @@ function Footer() {
     <footer>
       <div>
         <a href="https://github.com/nkosi-code" target="_blank" rel="noreferrer"><GitHubIcon/></a>
-        <a href="https://www.linkedin.com/in/siphiwo-nkosi" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+              <a href="https://www.linkedin.com/in/siphiwo-nkosi" target="_blank" rel="noreferrer"><LinkedInIcon /></a>
       </div>
       <p>This is <a href="https://github.com/nkosi-code" target="_blank" rel="noreferrer">Nkose-Code's</a> Digital Portfolio built with 💜</p>
     </footer>
