@@ -61,7 +61,7 @@ function Timeline() {
                       icon={<FontAwesomeIcon icon={faHandshakeAngle} />}
                   >
                       <h3 className="vertical-timeline-element-title">Media Volunteer (Photography & Sound)</h3>
-                      <h4 className="vertical-timeline-element-subtitle">Empower Church Media Team</h4>
+                      <h4 className="vertical-timeline-element-subtitle">Empower Church</h4>
                       <span className="timeline-location">Pretoria, SA (on-site)</span>
                       <p>
                           Event Photography, Live Service Coverage, Social Media Content Creation, Live Sound Mixing, Audio Setup & Troubleshooting, Microphone & Equipment Management, Stage Lighting & Visual Coordination, Projector Operation
