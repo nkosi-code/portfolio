@@ -11,7 +11,6 @@ View the [Live](https://nkosi-code.github.io/portfolio/).
 **This template is free to use, and no attribution is required.** You can fork or download this repository to customize it for your own use.
 
 ![screenshot](./src/assets/images/screenshot.png) 
-![Screenshot](./src/assets/images/Screenshot.png)
 
 ## Features
 
