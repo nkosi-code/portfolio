@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 import '../assets/styles/Contact.scss';
-// import emailjs from '@emailjs/browser';
+import emailjs from '@emailjs/browser';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import SendIcon from '@mui/icons-material/Send';
@@ -25,28 +25,26 @@ function Contact() {
     setEmailError(email === '');
     setMessageError(message === '');
 
-    /* Uncomment below if you want to enable the emailJS */
+     if (name !== '' && email !== '' && message !== '') {
+       var templateParams = {
+         name: name,
+         email: email,
+         message: message
+       };
 
-    // if (name !== '' && email !== '' && message !== '') {
-    //   var templateParams = {
-    //     name: name,
-    //     email: email,
-    //     message: message
-    //   };
-
-    //   console.log(templateParams);
-    //   emailjs.send('service_id', 'template_id', templateParams, 'api_key').then(
-    //     (response) => {
-    //       console.log('SUCCESS!', response.status, response.text);
-    //     },
-    //     (error) => {
-    //       console.log('FAILED...', error);
-    //     },
-    //   );
-    //   setName('');
-    //   setEmail('');
-    //   setMessage('');
-    // }
+       console.log(templateParams);
+         emailjs.send('service_ryeit7o', 'template_j767fia', templateParams, 'SO79ffyTrfnFVg-6e').then(
+         (response) => {
+           console.log('SUCCESS!', response.status, response.text);
+         },
+         (error) => {
+           console.log('FAILED...', error);
+         },
+       );
+       setName('');
+       setEmail('');
+       setMessage('');
+     }
   };
 
   return (
@@ -74,7 +72,31 @@ function Contact() {
                   setName(e.target.value);
                 }}
                 error={nameError}
-                helperText={nameError ? "Please enter your name" : ""}
+                              helperText={nameError ? "Please enter your name" : ""}
+                              sx={{
+                                  backgroundColor: "#fff",
+                                  borderRadius: "6px",
+
+                                  "& .MuiInputBase-input": {
+                                      color: "#000",
+                                  },
+
+                                  "& .MuiInputLabel-root": {
+                                      color: "#555",
+                                  },
+
+                                  "& .MuiOutlinedInput-root": {
+                                      "& fieldset": {
+                                          borderColor: "#ccc",
+                                      },
+                                      "&:hover fieldset": {
+                                          borderColor: "#5000ca",
+                                      },
+                                      "&.Mui-focused fieldset": {
+                                          borderColor: "#5000ca",
+                                      },
+                                  },
+                              }}
               />
               <TextField
                 required
@@ -86,7 +108,31 @@ function Contact() {
                   setEmail(e.target.value);
                 }}
                 error={emailError}
-                helperText={emailError ? "Please enter your email or phone number" : ""}
+                              helperText={emailError ? "Please enter your email or phone number" : ""}
+                              sx={{
+                                  backgroundColor: "#fff",
+                                  borderRadius: "6px",
+
+                                  "& .MuiInputBase-input": {
+                                      color: "#000",
+                                  },
+
+                                  "& .MuiInputLabel-root": {
+                                      color: "#555",
+                                  },
+
+                                  "& .MuiOutlinedInput-root": {
+                                      "& fieldset": {
+                                          borderColor: "#ccc",
+                                      },
+                                      "&:hover fieldset": {
+                                          borderColor: "#5000ca",
+                                      },
+                                      "&.Mui-focused fieldset": {
+                                          borderColor: "#5000ca",
+                                      },
+                                  },
+                              }}
               />
             </div>
             <TextField
@@ -102,7 +148,31 @@ function Contact() {
                 setMessage(e.target.value);
               }}
               error={messageError}
-              helperText={messageError ? "Please enter the message" : ""}
+                          helperText={messageError ? "Please enter the message" : ""}
+                          sx={{
+                              backgroundColor: "#fff",
+                              borderRadius: "6px",
+
+                              "& .MuiInputBase-input": {
+                                  color: "#000",
+                              },
+
+                              "& .MuiInputLabel-root": {
+                                  color: "#555",
+                              },
+
+                              "& .MuiOutlinedInput-root": {
+                                  "& fieldset": {
+                                      borderColor: "#ccc",
+                                  },
+                                  "&:hover fieldset": {
+                                      borderColor: "#5000ca",
+                                  },
+                                  "&.Mui-focused fieldset": {
+                                      borderColor: "#5000ca",
+                                  },
+                              },
+                          }}
             />
             <Button variant="contained" endIcon={<SendIcon />} onClick={sendEmail}>
               Send
