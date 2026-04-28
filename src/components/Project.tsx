@@ -14,7 +14,7 @@ function Project() {
             <div className="project">
                     <a href="https://github.com/nkosi-code/pos-system" target="_blank" rel="noreferrer"><img src={pos} className="zoom" alt="thumbnail" width="100%"/></a>
                     <a href="https://github.com/nkosi-code/pos-system" target="_blank" rel="noreferrer"><h2>POS System</h2></a>
-                    <p>A basic full-stack POS System simulating real retail operations, featuring inventory tracking, transaction processing, and data management. Developed with ASP.NET Core, C#, React, Tailwind, and SQL Server.</p>
+                    <p>Full-stack POS system with authentication, inventory management, and real-time transaction handling using ASP.NET Core, React, and SQL Server.</p>
             </div>
             <div className="project">
                     <a href="https://github.com/nkosi-code/TournamentSystem-API" target="_blank" rel="noreferrer"><img src={pro} className="zoom" alt="thumbnail" width="100%"/></a>
