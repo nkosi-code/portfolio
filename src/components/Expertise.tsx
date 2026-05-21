@@ -60,7 +60,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faCode} size="3x"/>
                     <h3>Full Stack Development</h3>
-                        <p>Building scalable and maintainable web applications with a focus on performance and clean architecture.</p>
+                        <p>Building full-stack apps with a focus on fast load times, clean state management, and maintainable API design.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech Stack:</span>
                         {labelsFirst.map((label, index) => (
