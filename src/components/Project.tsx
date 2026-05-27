@@ -17,13 +17,13 @@ function Project() {
                     <p>Full-stack POS system with authentication, inventory management, and real-time transaction handling using ASP.NET Core, React, and SQL Server.</p>
             </div>
             <div className="project">
-                    <a href="https://github.com/nkosi-code/TournamentSystem-API" target="_blank" rel="noreferrer"><img src={pro} className="zoom" alt="thumbnail" width="100%"/></a>
-                    <a href="https://github.com/nkosi-code/TournamentSystem-API" target="_blank" rel="noreferrer"><h2>Tournament.API</h2></a>
-                <p>This will be a website where organizers can host their own tournaments online.</p>
+                    <a href="https://github.com/nkosi-code/BallersHQ" target="_blank" rel="noreferrer"><img src={pro} className="zoom" alt="thumbnail" width="100%"/></a>
+                    <a href="https://github.com/nkosi-code/BallersHQ" target="_blank" rel="noreferrer"><h2>BallersHQ</h2></a>
+                    <p>eSports tournament management platform with bracket creation, team management, authentication, and responsive full-stack web development.</p>
             </div>
             <div className="project">
-                    <a href="https://github.com/nkosi-code/chess-app" target="_blank" rel="noreferrer"><img src={pro} className="zoom" alt="thumbnail" width="100%"/></a>
-                    <a href="https://github.com/nkosi-code/chess-app" target="_blank" rel="noreferrer"><h2>Chess App</h2></a>
+                    <a href="https://github.com/nkosi-code" target="_blank" rel="noreferrer"><img src={pro} className="zoom" alt="thumbnail" width="100%"/></a>
+                    <a href="https://github.com/nkosi-code" target="_blank" rel="noreferrer"><h2>Uknown Project</h2></a>
                 <p>This will be a free to play multiplayer chess game.</p>
             </div>
             <div className="project">

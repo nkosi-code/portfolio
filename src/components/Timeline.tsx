@@ -7,6 +7,32 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import 'react-vertical-timeline-component/style.min.css';
 import '../assets/styles/Timeline.scss'
 
+const getDuration = (startYear: number, startMonth: number): string => {
+    const now = new Date();
+
+    const currentYear = now.getFullYear();
+    const currentMonth = now.getMonth() + 1;
+
+    const totalMonths =
+        (currentYear - startYear) * 12 +
+        (currentMonth - startMonth);
+
+    if (totalMonths < 12) {
+        return totalMonths <= 1
+            ? "1 Month"
+            : `${totalMonths} Months`;
+    }
+
+    const years = Math.floor(totalMonths / 12);
+    const remainingMonths = totalMonths % 12;
+
+    if (remainingMonths === 0) {
+        return years === 1 ? "1 Year" : `${years} Years`;
+    }
+
+    return `${years}y ${remainingMonths}m`;
+};
+
 function Timeline() {
   return (
     <div id="history">
@@ -21,7 +47,7 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Software Engineer Intern</h3>
+                      <h3 className="vertical-timeline-element-title">Software Engineer Intern <span className="work-duration">{getDuration(2026, 1)}</span> </h3>
                       <h4 className="vertical-timeline-element-subtitle">Company Name Withheld (Confidential)</h4>
                       <span className="timeline-location">Johannesburg, SA (Remote)</span>
             <p>
@@ -34,7 +60,7 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faHandshakeAngle} />}
           >
-            <h3 className="vertical-timeline-element-title">Moderator Volunteer</h3>
+                      <h3 className="vertical-timeline-element-title">Moderator Volunteer <span className="work-duration">{getDuration(2025, 2)}</span> </h3>
                       <h4 className="vertical-timeline-element-subtitle">Mettlestate</h4>
                       <span className="timeline-location">Sandton, SA (Remote)</span>
             <p>
@@ -43,14 +69,15 @@ function Timeline() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2023 - 2024"
+            date="2023 - present"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Self-Directed Learning</h3>
-            <span className="timeline-location">Cape Town, SA</span>
+                      <h3 className="vertical-timeline-element-title">Freelance Full-Stack Developer <span className="work-duration">{getDuration(2023, 3)}</span> </h3>
+                      <h4 className="vertical-timeline-element-subtitle">Nkosi-Codde's</h4> 
+            <span className="timeline-location">South Africa (Remote)</span>
             <p>
-              Completing self-directed learning in programming and problem-solving. Building discipline through structured goal-setting and consistence. Achieving intermediate proficiency in Spanish.
+              Designing and developing full-stack web applications using React, ASP.NET Core, Node.js, and SQL databases. Building projects including tournament management platforms, POS systems, and responsive web applications while improving problem-solving, API integration, authentication, and UI/UX development skills.
             </p>
                   </VerticalTimelineElement>
                   <VerticalTimelineElement
@@ -60,7 +87,7 @@ function Timeline() {
                           background: '#5000ca', color: 'rgb(39, 40, 34)' }}
                       icon={<FontAwesomeIcon icon={faHandshakeAngle} />}
                   >
-                      <h3 className="vertical-timeline-element-title">Media Volunteer (Photography & Sound)</h3>
+                      <h3 className="vertical-timeline-element-title">Media Volunteer <span className="work-duration">4 Years</span> </h3>
                       <h4 className="vertical-timeline-element-subtitle">Empower Church</h4>
                       <span className="timeline-location">Pretoria, SA (on-site)</span>
                       <p>
