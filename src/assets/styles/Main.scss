@@ -17,37 +17,79 @@
     background-position: center;
 }
 
-.about-section .content {
-    text-align: left;
-    z-index: 2;
+    .about-section .content {
+        text-align: left;
+        z-index: 2;
 
-    .social_icons {
-        display: flex;
-        flex-direction: row;
-        gap: 10px;
-        color: white;
+        .social_icons {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            color: white;
 
-        svg {
-            font-size: 1.8em;
+            svg {
+                font-size: 1.8em;
+            }
+
+            .cv-link {
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                color: white;
+                text-decoration: none;
+                font-weight: 600;
+                font-size: 0.95rem;
+                transition: 0.3s ease;
+
+                span {
+                    position: relative;
+                    top: 1px;
+                }
+
+                &:hover {
+                    color: #b388ff;
+                    transform: translateY(-2px);
+                }
+            }
+        }
+
+        .mobile_social_icons {
+            display: none;
+
+            .cv-link {
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                color: white;
+                text-decoration: none;
+                font-weight: 600;
+                font-size: 0.95rem;
+                transition: 0.3s ease;
+
+                span {
+                    position: relative;
+                    top: 1px;
+                }
+
+                &:hover {
+                    color: #b388ff;
+                    transform: translateY(-2px);
+                }
+            }
+        }
+
+        p {
+            font-size: 1.5em;
+            margin-block-start: 0px;
+            margin-block-end: 0px;
+        }
+
+        h1 {
+            font-size: 5em;
+            margin-block-start: 0px;
+            margin-block-end: 0px;
         }
     }
-
-    .mobile_social_icons {
-        display: none;
-    }
-
-    p {
-        font-size: 1.5em;
-        margin-block-start: 0px;
-        margin-block-end: 0px;
-    }
-
-    h1 {
-        font-size: 5em;
-        margin-block-start: 0px;
-        margin-block-end: 0px;
-    }
-}
 
 .about-section .image-wrapper {
     z-index: 2;

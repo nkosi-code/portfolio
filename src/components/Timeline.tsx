@@ -74,7 +74,7 @@ function Timeline() {
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
                       <h3 className="vertical-timeline-element-title">Freelance Full-Stack Developer <span className="work-duration">{getDuration(2023, 3)}</span> </h3>
-                      <h4 className="vertical-timeline-element-subtitle">Nkosi-Codde's</h4> 
+                      <h4 className="vertical-timeline-element-subtitle">Nkosi-Code's</h4> 
             <span className="timeline-location">South Africa (Remote)</span>
             <p>
               Designing and developing full-stack web applications using React, ASP.NET Core, Node.js, and SQL databases. Building projects including tournament management platforms, POS systems, and responsive web applications while improving problem-solving, API integration, authentication, and UI/UX development skills.
