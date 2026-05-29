@@ -30,53 +30,10 @@
             svg {
                 font-size: 1.8em;
             }
-
-            .cv-link {
-                display: flex;
-                align-items: center;
-                gap: 5px;
-                color: white;
-                text-decoration: none;
-                font-weight: 600;
-                font-size: 0.95rem;
-                transition: 0.3s ease;
-
-                span {
-                    position: relative;
-                    top: 1px;
-                }
-
-                &:hover {
-                    color: #b388ff;
-                    transform: translateY(-2px);
-                }
-            }
         }
 
         .mobile_social_icons {
             display: none;
-
-            .cv-link {
-                display: flex;
-                align-items: center;
-                gap: 5px;
-                color: white;
-                text-decoration: none;
-                font-weight: 600;
-                font-size: 0.95rem;
-                transition: 0.3s ease;
-
-                span {
-                    position: relative;
-                    top: 1px;
-                }
-
-                &:hover {
-                    color: #b388ff;
-                    transform: translateY(-2px);
-                }
-            }
-        }
 
         p {
             font-size: 1.5em;
